@@ -9,6 +9,7 @@ public class ParseRunner
     public static void main(String args[]) throws Exception
     {
         Robot r = new Robot();
+        //callChrome.sh simply opens chrome. Can be replaced by any shell script to open the browser of choice
         Process process = Runtime.getRuntime().exec("nohup sh /Users/Bharat/callChrome.sh");
         System.out.println("Loading First Page");
         try
